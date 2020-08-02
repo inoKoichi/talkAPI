@@ -7,7 +7,7 @@ import pya3rt
 app = Flask(__name__)
 
 line_bot_api = LineBotApi("Ym1VfIw4a2BTRpvKdornxSm1uArvxiDDY9jaPJBXOHQ4g9TM29iGd0aVDS5qOJHzHiLt6xx8GavNwXpcAZAyMYxxt6aYf8d70q9vazN9i0MmZc0gDD2CWqml4lP79CJShEFBNlrUOT+spqFDPzukuAdB04t89/1O/w1cDnyilFU=")
-handler = WebhookHandler("e9dd45e00f5417a4da3c4f38bfe7c7a1")
+handler = WebhookHandler("ffa26009a88e5e685d3af98d95def967")
 
 @app.route("/callback", methods=['POST'])
 def callback():
