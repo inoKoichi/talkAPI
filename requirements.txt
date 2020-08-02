@@ -1,0 +1,4 @@
+Flask
+gunicorm
+line-bot-sdk
+pya3rt
